@@ -1,1 +1,117 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #212121;
+  letter-spacing: 0.03em;
+}
 
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Header */
+.logo,
+.logo-blue-word {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+
+.logo-blue-word {
+  color: #2196f3;
+}
+
+.navigation-list-link,
+.header-mail,
+.header-phone {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-mail:hover,
+.header-phone:hover,
+.header-mail:focus,
+.header-phone:focus {
+  color: #2196f3;
+}
+
+.header-mail,
+.header-phone {
+  font-style: normal;
+}
+
+/* Hero section */
+.hero-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-modal-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/* Main */
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.benefits-section .subtitle {
+  text-transform: uppercase;
+}
+
+.benefits-description {
+  font-weight: normal;
+  line-height: 1.71;
+  color: #757575;
+}
+
+.subtitle {
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.operations .subtitle {
+  text-align: center;
+  color: #ffffff;
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team-position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: #757575;
+}
