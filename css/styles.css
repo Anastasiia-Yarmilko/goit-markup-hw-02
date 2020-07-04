@@ -70,6 +70,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  background: #2196f3;
 }
 
 /* Main */
@@ -80,7 +81,9 @@ body {
   text-align: center;
 }
 
-.benefits-section .subtitle {
+.subtitle {
+  font-weight: bold;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
@@ -88,12 +91,6 @@ body {
   font-weight: normal;
   line-height: 1.71;
   color: #757575;
-}
-
-.subtitle {
-  font-weight: bold;
-  line-height: 1.14;
-  text-transform: uppercase;
 }
 
 .operations .subtitle {
@@ -114,4 +111,18 @@ body {
   line-height: 1.18;
   text-align: center;
   color: #757575;
+}
+
+.footer-street-address,
+.footer-mail,
+.footer-phone {
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1, 71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-street-address,
+.footer-container .subtitle {
+  color: #ffffff;
 }
