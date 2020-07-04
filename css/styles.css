@@ -126,3 +126,12 @@ body {
 .footer-container .subtitle {
   color: #ffffff;
 }
+
+.footer-street-address:hover,
+.footer-mail:hover,
+.footer-phone:hover,
+.footer-street-address:focus,
+.footer-mail:focus,
+.footer-phone:focus {
+  color: #2196f3;
+}
